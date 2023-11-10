@@ -1,0 +1,53 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/softwares/modelsim_dlx64_10.6c/win64pe
+vS65NLLHS2PH64x8
+Z0 !s110 1699620277
+!i10b 1
+!s100 ?Pm;8[BUZ42D_dMm>fP8A3
+Iza0>3o>=S1EjjmfiKN>>m0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/Desktop/course/digitalic/hw3/sim
+w1699617790
+8E:/Desktop/course/digitalic/hw3/S65NLLHS2PH64x8.v
+FE:/Desktop/course/digitalic/hw3/S65NLLHS2PH64x8.v
+L0 53
+Z3 OP;L;10.6c;65
+r1
+!s85 0
+31
+Z4 !s108 1699620277.000000
+!s107 E:/Desktop/course/digitalic/hw3/S65NLLHS2PH64x8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Desktop/course/digitalic/hw3/S65NLLHS2PH64x8.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@s65@n@l@l@h@s2@p@h64x8
+vtb_dual_port_ram
+R0
+!i10b 1
+!s100 888h_CgUT^go>Y;DCk>_L1
+IG`ZkPT^cM<MzQL=gP;J8o1
+R1
+R2
+w1699620037
+8E:/Desktop/course/digitalic/hw3/tb_dual_port_ram.v
+FE:/Desktop/course/digitalic/hw3/tb_dual_port_ram.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/Desktop/course/digitalic/hw3/tb_dual_port_ram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Desktop/course/digitalic/hw3/tb_dual_port_ram.v|
+!i113 1
+R5
+R6
