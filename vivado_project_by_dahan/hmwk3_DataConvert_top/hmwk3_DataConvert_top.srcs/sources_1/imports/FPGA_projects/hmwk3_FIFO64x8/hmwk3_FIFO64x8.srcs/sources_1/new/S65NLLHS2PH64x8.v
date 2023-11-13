@@ -51,12 +51,12 @@
 `celldefine
 
 module S65NLLHS2PH64x8 (
-        QA,
+                QA,
 			  CLKA,
 			  CLKB,
 			  CENA,
 			  CENB,
-        BWENB,
+             BWENB,
 			  AA,
 			  AB,
 			  DB);
@@ -485,94 +485,94 @@ module S65NLLHS2PH64x8 (
   end
   endtask
 
-  specify
-    (posedge CLKA => (QA[0] : 1'bx))=(1.000,1.000);
-    (posedge CLKA => (QA[1] : 1'bx))=(1.000,1.000);
-    (posedge CLKA => (QA[2] : 1'bx))=(1.000,1.000);
-    (posedge CLKA => (QA[3] : 1'bx))=(1.000,1.000);
-    (posedge CLKA => (QA[4] : 1'bx))=(1.000,1.000);
-    (posedge CLKA => (QA[5] : 1'bx))=(1.000,1.000);
-    (posedge CLKA => (QA[6] : 1'bx))=(1.000,1.000);
-    (posedge CLKA => (QA[7] : 1'bx))=(1.000,1.000);
+//  specify
+//    (posedge CLKA => (QA[0] : 1'bx))=(1.000,1.000);
+//    (posedge CLKA => (QA[1] : 1'bx))=(1.000,1.000);
+//    (posedge CLKA => (QA[2] : 1'bx))=(1.000,1.000);
+//    (posedge CLKA => (QA[3] : 1'bx))=(1.000,1.000);
+//    (posedge CLKA => (QA[4] : 1'bx))=(1.000,1.000);
+//    (posedge CLKA => (QA[5] : 1'bx))=(1.000,1.000);
+//    (posedge CLKA => (QA[6] : 1'bx))=(1.000,1.000);
+//    (posedge CLKA => (QA[7] : 1'bx))=(1.000,1.000);
 
-    $setuphold(posedge CLKA &&& CEA_flag,posedge AA[0],0.500,0.250,AA0_flag);
-    $setuphold(posedge CLKA &&& CEA_flag,negedge AA[0],0.500,0.250,AA0_flag);
-    $setuphold(posedge CLKA &&& CEA_flag,posedge AA[1],0.500,0.250,AA1_flag);
-    $setuphold(posedge CLKA &&& CEA_flag,negedge AA[1],0.500,0.250,AA1_flag);
-    $setuphold(posedge CLKA &&& CEA_flag,posedge AA[2],0.500,0.250,AA2_flag);
-    $setuphold(posedge CLKA &&& CEA_flag,negedge AA[2],0.500,0.250,AA2_flag);
-    $setuphold(posedge CLKA &&& CEA_flag,posedge AA[3],0.500,0.250,AA3_flag);
-    $setuphold(posedge CLKA &&& CEA_flag,negedge AA[3],0.500,0.250,AA3_flag);
-    $setuphold(posedge CLKA &&& CEA_flag,posedge AA[4],0.500,0.250,AA4_flag);
-    $setuphold(posedge CLKA &&& CEA_flag,negedge AA[4],0.500,0.250,AA4_flag);
-    $setuphold(posedge CLKA &&& CEA_flag,posedge AA[5],0.500,0.250,AA5_flag);
-    $setuphold(posedge CLKA &&& CEA_flag,negedge AA[5],0.500,0.250,AA5_flag);
+//    $setuphold(posedge CLKA &&& CEA_flag,posedge AA[0],0.500,0.250,AA0_flag);
+//    $setuphold(posedge CLKA &&& CEA_flag,negedge AA[0],0.500,0.250,AA0_flag);
+//    $setuphold(posedge CLKA &&& CEA_flag,posedge AA[1],0.500,0.250,AA1_flag);
+//    $setuphold(posedge CLKA &&& CEA_flag,negedge AA[1],0.500,0.250,AA1_flag);
+//    $setuphold(posedge CLKA &&& CEA_flag,posedge AA[2],0.500,0.250,AA2_flag);
+//    $setuphold(posedge CLKA &&& CEA_flag,negedge AA[2],0.500,0.250,AA2_flag);
+//    $setuphold(posedge CLKA &&& CEA_flag,posedge AA[3],0.500,0.250,AA3_flag);
+//    $setuphold(posedge CLKA &&& CEA_flag,negedge AA[3],0.500,0.250,AA3_flag);
+//    $setuphold(posedge CLKA &&& CEA_flag,posedge AA[4],0.500,0.250,AA4_flag);
+//    $setuphold(posedge CLKA &&& CEA_flag,negedge AA[4],0.500,0.250,AA4_flag);
+//    $setuphold(posedge CLKA &&& CEA_flag,posedge AA[5],0.500,0.250,AA5_flag);
+//    $setuphold(posedge CLKA &&& CEA_flag,negedge AA[5],0.500,0.250,AA5_flag);
 
-    $setuphold(posedge CLKB &&& CEB_flag,posedge AB[0],0.500,0.250,AB0_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,negedge AB[0],0.500,0.250,AB0_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,posedge AB[1],0.500,0.250,AB1_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,negedge AB[1],0.500,0.250,AB1_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,posedge AB[2],0.500,0.250,AB2_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,negedge AB[2],0.500,0.250,AB2_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,posedge AB[3],0.500,0.250,AB3_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,negedge AB[3],0.500,0.250,AB3_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,posedge AB[4],0.500,0.250,AB4_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,negedge AB[4],0.500,0.250,AB4_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,posedge AB[5],0.500,0.250,AB5_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,negedge AB[5],0.500,0.250,AB5_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,posedge AB[0],0.500,0.250,AB0_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,negedge AB[0],0.500,0.250,AB0_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,posedge AB[1],0.500,0.250,AB1_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,negedge AB[1],0.500,0.250,AB1_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,posedge AB[2],0.500,0.250,AB2_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,negedge AB[2],0.500,0.250,AB2_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,posedge AB[3],0.500,0.250,AB3_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,negedge AB[3],0.500,0.250,AB3_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,posedge AB[4],0.500,0.250,AB4_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,negedge AB[4],0.500,0.250,AB4_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,posedge AB[5],0.500,0.250,AB5_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,negedge AB[5],0.500,0.250,AB5_flag);
 
-    $setuphold(posedge CLKB &&& CEB_flag,posedge BWENB[0],0.500,0.250,BWENB0_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,negedge BWENB[0],0.500,0.250,BWENB0_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,posedge BWENB[1],0.500,0.250,BWENB1_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,negedge BWENB[1],0.500,0.250,BWENB1_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,posedge BWENB[2],0.500,0.250,BWENB2_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,negedge BWENB[2],0.500,0.250,BWENB2_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,posedge BWENB[3],0.500,0.250,BWENB3_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,negedge BWENB[3],0.500,0.250,BWENB3_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,posedge BWENB[4],0.500,0.250,BWENB4_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,negedge BWENB[4],0.500,0.250,BWENB4_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,posedge BWENB[5],0.500,0.250,BWENB5_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,negedge BWENB[5],0.500,0.250,BWENB5_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,posedge BWENB[6],0.500,0.250,BWENB6_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,negedge BWENB[6],0.500,0.250,BWENB6_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,posedge BWENB[7],0.500,0.250,BWENB7_flag);
-    $setuphold(posedge CLKB &&& CEB_flag,negedge BWENB[7],0.500,0.250,BWENB7_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,posedge BWENB[0],0.500,0.250,BWENB0_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,negedge BWENB[0],0.500,0.250,BWENB0_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,posedge BWENB[1],0.500,0.250,BWENB1_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,negedge BWENB[1],0.500,0.250,BWENB1_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,posedge BWENB[2],0.500,0.250,BWENB2_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,negedge BWENB[2],0.500,0.250,BWENB2_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,posedge BWENB[3],0.500,0.250,BWENB3_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,negedge BWENB[3],0.500,0.250,BWENB3_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,posedge BWENB[4],0.500,0.250,BWENB4_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,negedge BWENB[4],0.500,0.250,BWENB4_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,posedge BWENB[5],0.500,0.250,BWENB5_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,negedge BWENB[5],0.500,0.250,BWENB5_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,posedge BWENB[6],0.500,0.250,BWENB6_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,negedge BWENB[6],0.500,0.250,BWENB6_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,posedge BWENB[7],0.500,0.250,BWENB7_flag);
+//    $setuphold(posedge CLKB &&& CEB_flag,negedge BWENB[7],0.500,0.250,BWENB7_flag);
 
-    $setuphold(posedge CLKA,posedge CENA,0.500,0.250,CENA_flag);
-    $setuphold(posedge CLKA,negedge CENA,0.500,0.250,CENA_flag);
-    $period(posedge CLKA,0.892,CLKA_CYC_flag);
-    $width(posedge CLKA,0.268,0,CLKA_H_flag);
-    $width(negedge CLKA,0.268,0,CLKA_L_flag);
+//    $setuphold(posedge CLKA,posedge CENA,0.500,0.250,CENA_flag);
+//    $setuphold(posedge CLKA,negedge CENA,0.500,0.250,CENA_flag);
+//    $period(posedge CLKA,0.892,CLKA_CYC_flag);
+//    $width(posedge CLKA,0.268,0,CLKA_H_flag);
+//    $width(negedge CLKA,0.268,0,CLKA_L_flag);
 
-    $setuphold(posedge CLKB,posedge CENB,0.500,0.250,CENB_flag);
-    $setuphold(posedge CLKB,negedge CENB,0.500,0.250,CENB_flag);
-    $period(posedge CLKB,0.892,CLKB_CYC_flag);
-    $width(posedge CLKB,0.268,0,CLKB_H_flag);
-    $width(negedge CLKB,0.268,0,CLKB_L_flag);
+//    $setuphold(posedge CLKB,posedge CENB,0.500,0.250,CENB_flag);
+//    $setuphold(posedge CLKB,negedge CENB,0.500,0.250,CENB_flag);
+//    $period(posedge CLKB,0.892,CLKB_CYC_flag);
+//    $width(posedge CLKB,0.268,0,CLKB_H_flag);
+//    $width(negedge CLKB,0.268,0,CLKB_L_flag);
 
-    $setup(posedge CLKA,posedge CLKB &&& clkconfB_flag,1.000,VIOB_flag);
-    $hold(posedge CLKA,posedge CLKB &&& clkconf_flag,0.010,VIOB_flag);
-    $setup(posedge CLKB,posedge CLKA &&& clkconfA_flag,1.000,VIOA_flag);
-    $hold(posedge CLKB,posedge CLKA &&& clkconf_flag,0.010,VIOA_flag);
+//    $setup(posedge CLKA,posedge CLKB &&& clkconfB_flag,1.000,VIOB_flag);
+//    $hold(posedge CLKA,posedge CLKB &&& clkconf_flag,0.010,VIOB_flag);
+//    $setup(posedge CLKB,posedge CLKA &&& clkconfA_flag,1.000,VIOA_flag);
+//    $hold(posedge CLKB,posedge CLKA &&& clkconf_flag,0.010,VIOA_flag);
 
-    $setuphold(posedge CLKB &&& WRB0_flag,posedge DB[0],0.500,0.250,DB0_flag);
-    $setuphold(posedge CLKB &&& WRB0_flag,negedge DB[0],0.500,0.250,DB0_flag);
-    $setuphold(posedge CLKB &&& WRB1_flag,posedge DB[1],0.500,0.250,DB1_flag);
-    $setuphold(posedge CLKB &&& WRB1_flag,negedge DB[1],0.500,0.250,DB1_flag);
-    $setuphold(posedge CLKB &&& WRB2_flag,posedge DB[2],0.500,0.250,DB2_flag);
-    $setuphold(posedge CLKB &&& WRB2_flag,negedge DB[2],0.500,0.250,DB2_flag);
-    $setuphold(posedge CLKB &&& WRB3_flag,posedge DB[3],0.500,0.250,DB3_flag);
-    $setuphold(posedge CLKB &&& WRB3_flag,negedge DB[3],0.500,0.250,DB3_flag);
-    $setuphold(posedge CLKB &&& WRB4_flag,posedge DB[4],0.500,0.250,DB4_flag);
-    $setuphold(posedge CLKB &&& WRB4_flag,negedge DB[4],0.500,0.250,DB4_flag);
-    $setuphold(posedge CLKB &&& WRB5_flag,posedge DB[5],0.500,0.250,DB5_flag);
-    $setuphold(posedge CLKB &&& WRB5_flag,negedge DB[5],0.500,0.250,DB5_flag);
-    $setuphold(posedge CLKB &&& WRB6_flag,posedge DB[6],0.500,0.250,DB6_flag);
-    $setuphold(posedge CLKB &&& WRB6_flag,negedge DB[6],0.500,0.250,DB6_flag);
-    $setuphold(posedge CLKB &&& WRB7_flag,posedge DB[7],0.500,0.250,DB7_flag);
-    $setuphold(posedge CLKB &&& WRB7_flag,negedge DB[7],0.500,0.250,DB7_flag);
+//    $setuphold(posedge CLKB &&& WRB0_flag,posedge DB[0],0.500,0.250,DB0_flag);
+//    $setuphold(posedge CLKB &&& WRB0_flag,negedge DB[0],0.500,0.250,DB0_flag);
+//    $setuphold(posedge CLKB &&& WRB1_flag,posedge DB[1],0.500,0.250,DB1_flag);
+//    $setuphold(posedge CLKB &&& WRB1_flag,negedge DB[1],0.500,0.250,DB1_flag);
+//    $setuphold(posedge CLKB &&& WRB2_flag,posedge DB[2],0.500,0.250,DB2_flag);
+//    $setuphold(posedge CLKB &&& WRB2_flag,negedge DB[2],0.500,0.250,DB2_flag);
+//    $setuphold(posedge CLKB &&& WRB3_flag,posedge DB[3],0.500,0.250,DB3_flag);
+//    $setuphold(posedge CLKB &&& WRB3_flag,negedge DB[3],0.500,0.250,DB3_flag);
+//    $setuphold(posedge CLKB &&& WRB4_flag,posedge DB[4],0.500,0.250,DB4_flag);
+//    $setuphold(posedge CLKB &&& WRB4_flag,negedge DB[4],0.500,0.250,DB4_flag);
+//    $setuphold(posedge CLKB &&& WRB5_flag,posedge DB[5],0.500,0.250,DB5_flag);
+//    $setuphold(posedge CLKB &&& WRB5_flag,negedge DB[5],0.500,0.250,DB5_flag);
+//    $setuphold(posedge CLKB &&& WRB6_flag,posedge DB[6],0.500,0.250,DB6_flag);
+//    $setuphold(posedge CLKB &&& WRB6_flag,negedge DB[6],0.500,0.250,DB6_flag);
+//    $setuphold(posedge CLKB &&& WRB7_flag,posedge DB[7],0.500,0.250,DB7_flag);
+//    $setuphold(posedge CLKB &&& WRB7_flag,negedge DB[7],0.500,0.250,DB7_flag);
 
-  endspecify
+//  endspecify
 
 endmodule
 

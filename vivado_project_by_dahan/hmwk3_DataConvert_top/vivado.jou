@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Nov 13 14:56:14 2023
+# Process ID: 8328
+# Current directory: C:/Users/92336/Desktop/IC/course_digital_ic/homework/hw3/vivado_project_by_dahan/hmwk3_DataConvert_top
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent44436 C:\Users\92336\Desktop\IC\course_digital_ic\homework\hw3\vivado_project_by_dahan\hmwk3_DataConvert_top\hmwk3_DataConvert_top.xpr
+# Log file: C:/Users/92336/Desktop/IC/course_digital_ic/homework/hw3/vivado_project_by_dahan/hmwk3_DataConvert_top/vivado.log
+# Journal file: C:/Users/92336/Desktop/IC/course_digital_ic/homework/hw3/vivado_project_by_dahan/hmwk3_DataConvert_top\vivado.jou
+# Running On: WWXQHARDWARE, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 34044 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/92336/Desktop/IC/course_digital_ic/homework/hw3/vivado_project_by_dahan/hmwk3_DataConvert_top/hmwk3_DataConvert_top.xpr
+upgrade_project -migrate_output_products
+update_compile_order -fileset sources_1
+launch_simulation
+source data_convert_top_tb.tcl
+open_wave_config {C:/Users/92336/Desktop/IC/course_digital_ic/homework/hw3/vivado_project_by_dahan/hmwk3_DataConvert_top/data_convert_top_tb_behav.wcfg}
+close_sim
+launch_simulation
+source data_convert_top_tb.tcl
+close_sim
