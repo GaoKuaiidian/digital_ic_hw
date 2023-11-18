@@ -1,8 +1,0 @@
-E:/Desktop/course/digitalic/hw3/S65NLLHS2PH64x8.v {1 {vlog -work work -stats=none E:/Desktop/course/digitalic/hw3/S65NLLHS2PH64x8.v
-Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
--- Compiling module S65NLLHS2PH64x8
-
-Top level modules:
-	S65NLLHS2PH64x8
-
-} {} {}}

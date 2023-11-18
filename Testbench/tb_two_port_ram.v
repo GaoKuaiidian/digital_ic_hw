@@ -1,5 +1,5 @@
 `timescale 1ns/1ps
-module tb_dual_port_ram ();
+module tb_two_port_ram ();
   parameter	Bits = 8;
   parameter	Word_Depth = 64;
   parameter	Add_Width = 6;
