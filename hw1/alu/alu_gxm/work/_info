@@ -1,0 +1,102 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_2020.4/examples
+T_opt
+!s110 1698564960
+V=o1cELgLbBNV3EY2;?nSJ2
+Z1 04 13 4 work add_ALU4_test fast 0
+=1-e88088106d16-653e0b60-260-6d28
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1698566061
+VEV0EQPNi^D80b@ID873S10
+R1
+=1-e88088106d16-653e0fad-1e7-24b4
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+vadd_ALU4
+Z4 !s110 1698566053
+!i10b 1
+!s100 3GX`KlE:lPNZ4Gmn4di>41
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+In:@hYIOCLzUh9LhK@?hhU0
+Z6 dC:/Users/92336/Desktop/IC/alu
+w1698564786
+8C:/Users/92336/Desktop/IC/alu/add_ALU4.v
+FC:/Users/92336/Desktop/IC/alu/add_ALU4.v
+!i122 3
+L0 1 13
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+!s108 1698566052.000000
+!s107 C:/Users/92336/Desktop/IC/alu/add_ALU4.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/92336/Desktop/IC/alu/add_ALU4.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+nadd_@a@l@u4
+vadd_ALU4_test
+R4
+!i10b 1
+!s100 G7aZzHPHaU:IF<Y@_e?Vn3
+R5
+IQ^ZEf<PGm_mOnafOi^dzJ0
+R6
+w1698564897
+8C:/Users/92336/Desktop/IC/alu/add_ALU4_test.v
+FC:/Users/92336/Desktop/IC/alu/add_ALU4_test.v
+!i122 4
+L0 3 38
+R7
+R8
+r1
+!s85 0
+31
+Z10 !s108 1698566053.000000
+!s107 C:/Users/92336/Desktop/IC/alu/add_ALU4_test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/92336/Desktop/IC/alu/add_ALU4_test.v|
+!i113 0
+R9
+R2
+nadd_@a@l@u4_test
+vadder_ALU4_rpl
+R4
+!i10b 1
+!s100 Sa1ll87fEJ=<k5`^kQ@E:2
+R5
+IEgF7LdKTWB53<:BYQjE>i3
+R6
+w1698565989
+8C:/Users/92336/Desktop/IC/alu/adder_ALU4_rpl.v
+FC:/Users/92336/Desktop/IC/alu/adder_ALU4_rpl.v
+!i122 5
+L0 1 19
+R7
+R8
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/92336/Desktop/IC/alu/adder_ALU4_rpl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/92336/Desktop/IC/alu/adder_ALU4_rpl.v|
+!i113 0
+R9
+R2
+nadder_@a@l@u4_rpl

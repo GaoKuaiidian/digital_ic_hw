@@ -1,0 +1,78 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_2020.4/examples
+T_opt
+!s110 1699097676
+V]a>B]P>7DRJ3BD:g3TQ>M2
+Z1 04 11 4 work seq_dect_tb fast 0
+=1-e88088106d16-65462c4c-2-a96c
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1699097878
+V64>D56V@oOOYjz3=kHBE01
+R1
+=2-e88088106d16-65462d16-2e5-94d4
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+vseq_dect
+Z4 !s110 1699097863
+!i10b 1
+!s100 VWY_NRQz_XW5jMA7GEfcH1
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>V:cC?R7?3K`O@17[d4QL2
+Z6 dC:/Users/92336/Desktop/IC/course_digital_ic/homework/hw2&3/share/seq_detect_01110_23_11_2_share/hw2&3_ozh/sim
+w1699097663
+8C:/Users/92336/Desktop/IC/course_digital_ic/homework/hw2&3/share/seq_detect_01110_23_11_2_share/hw2&3_ozh/seq_dect.v
+FC:/Users/92336/Desktop/IC/course_digital_ic/homework/hw2&3/share/seq_detect_01110_23_11_2_share/hw2&3_ozh/seq_dect.v
+!i122 3
+L0 1 57
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z9 !s108 1699097863.000000
+!s107 C:/Users/92336/Desktop/IC/course_digital_ic/homework/hw2&3/share/seq_detect_01110_23_11_2_share/hw2&3_ozh/seq_dect.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/92336/Desktop/IC/course_digital_ic/homework/hw2&3/share/seq_detect_01110_23_11_2_share/hw2&3_ozh/seq_dect.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vseq_dect_tb
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R4
+!i10b 1
+!s100 d]j[Kl70N5:djXJMgPMg_3
+R5
+IYE<;UI0mn5DZk^hF>VD==0
+S1
+R6
+w1699097858
+8C:/Users/92336/Desktop/IC/course_digital_ic/homework/hw2&3/share/seq_detect_01110_23_11_2_share/hw2&3_ozh/seq_dect_tb.sv
+FC:/Users/92336/Desktop/IC/course_digital_ic/homework/hw2&3/share/seq_detect_01110_23_11_2_share/hw2&3_ozh/seq_dect_tb.sv
+!i122 4
+L0 2 33
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/92336/Desktop/IC/course_digital_ic/homework/hw2&3/share/seq_detect_01110_23_11_2_share/hw2&3_ozh/seq_dect_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/92336/Desktop/IC/course_digital_ic/homework/hw2&3/share/seq_detect_01110_23_11_2_share/hw2&3_ozh/seq_dect_tb.sv|
+!i113 0
+o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2

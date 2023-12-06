@@ -1,0 +1,30 @@
+Time resolution is 1 ps
+                   0 -- INPUT: {S,Cin,M}=xxxxxx;opA=xxxxxxxx,opB=xxxxxxxx,	 OUTPUT: DO=xxxxxxxx,C=x,V=x,N=x,Z=x
+                  10 -- INPUT: {S,Cin,M}=000010;opA=ffff0000,opB=ff00ff00,	 OUTPUT: DO=00000000,C=1,V=0,N=0,Z=1
+                  20 -- INPUT: {S,Cin,M}=000110;opA=ffff0000,opB=ff00ff00,	 OUTPUT: DO=000000ff,C=1,V=0,N=0,Z=0
+                  30 -- INPUT: {S,Cin,M}=001010;opA=ffff0000,opB=ff00ff00,	 OUTPUT: DO=0000ff00,C=1,V=0,N=0,Z=0
+                  40 -- INPUT: {S,Cin,M}=001110;opA=ffff0000,opB=ff00ff00,	 OUTPUT: DO=0000ffff,C=1,V=0,N=0,Z=0
+                  50 -- INPUT: {S,Cin,M}=010010;opA=ffff0000,opB=ff00ff00,	 OUTPUT: DO=00ff0000,C=1,V=0,N=0,Z=0
+                  60 -- INPUT: {S,Cin,M}=010110;opA=ffff0000,opB=ff00ff00,	 OUTPUT: DO=00ff00ff,C=1,V=0,N=0,Z=0
+                  70 -- INPUT: {S,Cin,M}=011010;opA=ffff0000,opB=ff00ff00,	 OUTPUT: DO=00ffff00,C=1,V=0,N=0,Z=0
+                  80 -- INPUT: {S,Cin,M}=011110;opA=ffff0000,opB=ff00ff00,	 OUTPUT: DO=00ffffff,C=1,V=0,N=0,Z=0
+                  90 -- INPUT: {S,Cin,M}=100010;opA=ffff0000,opB=ff00ff00,	 OUTPUT: DO=ff000000,C=1,V=0,N=0,Z=0
+                 100 -- INPUT: {S,Cin,M}=100110;opA=ffff0000,opB=ff00ff00,	 OUTPUT: DO=ff0000ff,C=1,V=0,N=0,Z=0
+                 110 -- INPUT: {S,Cin,M}=101010;opA=ffff0000,opB=ff00ff00,	 OUTPUT: DO=ff00ff00,C=1,V=0,N=0,Z=0
+                 120 -- INPUT: {S,Cin,M}=101110;opA=ffff0000,opB=ff00ff00,	 OUTPUT: DO=ff00ffff,C=1,V=0,N=0,Z=0
+                 130 -- INPUT: {S,Cin,M}=110010;opA=ffff0000,opB=ff00ff00,	 OUTPUT: DO=ffff0000,C=1,V=0,N=0,Z=0
+                 140 -- INPUT: {S,Cin,M}=110110;opA=ffff0000,opB=ff00ff00,	 OUTPUT: DO=ffff00ff,C=1,V=0,N=0,Z=0
+                 150 -- INPUT: {S,Cin,M}=111010;opA=ffff0000,opB=ff00ff00,	 OUTPUT: DO=ffffff00,C=1,V=0,N=0,Z=0
+                 160 -- INPUT: {S,Cin,M}=111110;opA=ffff0000,opB=ff00ff00,	 OUTPUT: DO=ffffffff,C=1,V=0,N=0,Z=0
+                 170 -- INPUT: {S,Cin,M}=100101;opA=ffffffff,opB=aaaaaaaa,	 OUTPUT: DO=aaaaaaa9,C=1,V=0,N=1,Z=0
+                 180 -- INPUT: {S,Cin,M}=100101;opA=7fffffff,opB=7aaaaaaa,	 OUTPUT: DO=faaaaaa9,C=0,V=1,N=1,Z=0
+                 190 -- INPUT: {S,Cin,M}=011011;opA=ffffffff,opB=0000ffff,	 OUTPUT: DO=ffff0000,C=0,V=0,N=1,Z=0
+ERROR at time = 192 -- INPUT:S = 0110, Cin = 1, M = 1;opA=ffffffff,opB=0000ffff,	 OUTPUT: DO=ffff0000,C=0,V=0,N=1,Z=0, Correct OUTPUT: DO=ffff0000,C=1,V=0,N=1,Z=0
+                 200 -- INPUT: {S,Cin,M}=011011;opA=00000001,opB=00000002,	 OUTPUT: DO=ffffffff,C=1,V=0,N=1,Z=0
+
+*********************************************
+*** Testbench completed with 1 errors ***
+*********************************************
+
+
+$finish called at time : 222 ns : File "C:/Users/92336/Desktop/IC/alu/Testbench/tb_alu_for_top.v" Line 171

@@ -1,0 +1,66 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/modeltech64_2020.4/examples
+T_opt
+!s110 1699101171
+VlzU^OnnA:JNTRI4BEK=T<0
+04 15 4 work shifter_4bit_tb fast 0
+=6-e88088106d16-654639f2-367-1f8
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vshifter_4bit
+Z1 !s110 1699101167
+!i10b 1
+!s100 L]oRUbA019?^];7A3V4LO3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IUnSba<jJH4kGFIY6[hX[<1
+Z3 dC:/Users/92336/Desktop/IC/course_digital_ic/homework/hw2&3/share/seq_detect_01110_23_11_2_share/hw2&3_ozh/sim_shifter
+w1699101143
+8C:/Users/92336/Desktop/IC/course_digital_ic/homework/hw2&3/share/seq_detect_01110_23_11_2_share/hw2&3_ozh/shifter_4bit/shifter_4bit.v
+FC:/Users/92336/Desktop/IC/course_digital_ic/homework/hw2&3/share/seq_detect_01110_23_11_2_share/hw2&3_ozh/shifter_4bit/shifter_4bit.v
+!i122 7
+L0 1 20
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z6 !s108 1699101167.000000
+!s107 C:/Users/92336/Desktop/IC/course_digital_ic/homework/hw2&3/share/seq_detect_01110_23_11_2_share/hw2&3_ozh/shifter_4bit/shifter_4bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/92336/Desktop/IC/course_digital_ic/homework/hw2&3/share/seq_detect_01110_23_11_2_share/hw2&3_ozh/shifter_4bit/shifter_4bit.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vshifter_4bit_tb
+R1
+!i10b 1
+!s100 aD5]ccR52?HBKX6MX:?BG0
+R2
+I266UZGMNRoe<[GS:l[BXg2
+R3
+w1699101041
+8C:/Users/92336/Desktop/IC/course_digital_ic/homework/hw2&3/share/seq_detect_01110_23_11_2_share/hw2&3_ozh/shifter_4bit/shifter_4bit_tb.v
+FC:/Users/92336/Desktop/IC/course_digital_ic/homework/hw2&3/share/seq_detect_01110_23_11_2_share/hw2&3_ozh/shifter_4bit/shifter_4bit_tb.v
+!i122 8
+L0 2 45
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/92336/Desktop/IC/course_digital_ic/homework/hw2&3/share/seq_detect_01110_23_11_2_share/hw2&3_ozh/shifter_4bit/shifter_4bit_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/92336/Desktop/IC/course_digital_ic/homework/hw2&3/share/seq_detect_01110_23_11_2_share/hw2&3_ozh/shifter_4bit/shifter_4bit_tb.v|
+!i113 0
+R7
+R0

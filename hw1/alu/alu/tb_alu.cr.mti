@@ -1,0 +1,15 @@
+C:/Users/92336/Desktop/IC/alu/Vsrc/alu_top.v {1 {vlog -work work -vopt -stats=none C:/Users/92336/Desktop/IC/alu/Vsrc/alu_top.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module alu_top
+
+Top level modules:
+	alu_top
+
+} {} {}} C:/Users/92336/Desktop/IC/alu/Vsrc/alu_unit.v {1 {vlog -work work -vopt -stats=none C:/Users/92336/Desktop/IC/alu/Vsrc/alu_unit.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module alu_unit
+
+Top level modules:
+	alu_unit
+
+} {} {}}

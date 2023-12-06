@@ -1,0 +1,22 @@
+C:/Users/92336/Desktop/IC/alu/add_ALU4_test.v {1 {vlog -work work -vopt -stats=none C:/Users/92336/Desktop/IC/alu/add_ALU4_test.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module add_ALU4_test
+
+Top level modules:
+	add_ALU4_test
+
+} {} {}} C:/Users/92336/Desktop/IC/alu/adder_ALU4_rpl.v {1 {vlog -work work -vopt -stats=none C:/Users/92336/Desktop/IC/alu/adder_ALU4_rpl.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module adder_ALU4_rpl
+
+Top level modules:
+	adder_ALU4_rpl
+
+} {} {}} C:/Users/92336/Desktop/IC/alu/add_ALU4.v {1 {vlog -work work -vopt -stats=none C:/Users/92336/Desktop/IC/alu/add_ALU4.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module add_ALU4
+
+Top level modules:
+	add_ALU4
+
+} {} {}}

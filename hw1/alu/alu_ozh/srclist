@@ -1,0 +1,3 @@
+./Testbench/tb_alu_core.v
+./Vsrc/alu_core.v
+./Vsrc/alu_unit.v

@@ -1,0 +1,89 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/modeltech64_2020.4/examples
+T_opt
+!s110 1698920808
+VV<XWCa_FIZzO5[hfbOP>]1
+04 10 4 work shifter_tb fast 0
+=4-e88088106d16-65437968-25-9d18
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vseq_detect_01110_tb
+!s110 1698919720
+!i10b 1
+!s100 1e`JaYhO@E2``Ffo9S<3?0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IcY^MbVh^O5_oL1`nQL?RH2
+Z2 dC:/Users/92336/Desktop/IC/course_digital_practice/homework/shifter
+w1698919576
+Z3 8C:/Users/92336/Desktop/IC/course_digital_practice/homework/shifter/shifter_tb.v
+Z4 FC:/Users/92336/Desktop/IC/course_digital_practice/homework/shifter/shifter_tb.v
+!i122 3
+Z5 L0 2 52
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2020.4;71
+r1
+!s85 0
+31
+!s108 1698919720.000000
+Z8 !s107 C:/Users/92336/Desktop/IC/course_digital_practice/homework/shifter/shifter_tb.v|
+Z9 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/92336/Desktop/IC/course_digital_practice/homework/shifter/shifter_tb.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vshifter
+Z11 !s110 1698920803
+!i10b 1
+!s100 OPBB[Xl1OhKInIThP2QMj2
+R1
+IMFnIU;7RzKL=zC@;R@__M1
+R2
+w1698920795
+8C:/Users/92336/Desktop/IC/course_digital_practice/homework/shifter/shifter.v
+FC:/Users/92336/Desktop/IC/course_digital_practice/homework/shifter/shifter.v
+!i122 10
+L0 1 92
+R6
+R7
+r1
+!s85 0
+31
+Z12 !s108 1698920803.000000
+!s107 C:/Users/92336/Desktop/IC/course_digital_practice/homework/shifter/shifter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/92336/Desktop/IC/course_digital_practice/homework/shifter/shifter.v|
+!i113 0
+R10
+R0
+vshifter_tb
+R11
+!i10b 1
+!s100 =diHk2FjYKZILkWh3P;8f3
+R1
+I^VOiJC:2il;gZoK9ii[YO2
+R2
+w1698920362
+R3
+R4
+!i122 11
+R5
+R6
+R7
+r1
+!s85 0
+31
+R12
+R8
+R9
+!i113 0
+R10
+R0

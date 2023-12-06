@@ -1,0 +1,90 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_2020.4/examples
+T_opt
+!s110 1698591110
+V76bRSRO`60Q1W8GK9NMZl3
+04 10 4 work tb_alu_top fast 0
+=1-e88088106d16-653e7186-2f6-4340
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+R0
+valu_top
+Z2 !s110 1698591228
+!i10b 1
+!s100 TGzi0ZSQREOFd=[IIJ16]2
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+INNKOHz^=>:eLdWE`BnIBg2
+Z4 dC:/Users/92336/Desktop/IC/alu
+w1698591096
+8C:/Users/92336/Desktop/IC/alu/Vsrc/alu_top.v
+FC:/Users/92336/Desktop/IC/alu/Vsrc/alu_top.v
+!i122 9
+L0 1 32
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z7 !s108 1698591228.000000
+!s107 C:/Users/92336/Desktop/IC/alu/Vsrc/alu_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/92336/Desktop/IC/alu/Vsrc/alu_top.v|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+valu_unit
+R2
+!i10b 1
+!s100 4W49FNUfG^BaFcJ[aKE@T3
+R3
+IL0@`J_5`MMDEh^m:56iG[3
+R4
+w1698418956
+8C:/Users/92336/Desktop/IC/alu/Vsrc/alu_unit.v
+FC:/Users/92336/Desktop/IC/alu/Vsrc/alu_unit.v
+!i122 10
+L0 1 18
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/92336/Desktop/IC/alu/Vsrc/alu_unit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/92336/Desktop/IC/alu/Vsrc/alu_unit.v|
+!i113 0
+R8
+R1
+vtb_alu_top
+R2
+!i10b 1
+!s100 <3STW8[[ZGDUP6<U8TOd_0
+R3
+I[2Q_GQMCnS=?>c2dZnIz<3
+R4
+w1698590903
+8C:/Users/92336/Desktop/IC/alu/Testbench/tb_alu_top.v
+FC:/Users/92336/Desktop/IC/alu/Testbench/tb_alu_top.v
+!i122 8
+L0 2 181
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/92336/Desktop/IC/alu/Testbench/tb_alu_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/92336/Desktop/IC/alu/Testbench/tb_alu_top.v|
+!i113 0
+R8
+R1

@@ -1,0 +1,127 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_2020.4/examples
+T_opt
+!s110 1698889053
+VUgEXUUG^6RM>boF36?7T;1
+04 28 4 work sequential_detector_01001_tb fast 0
+=2-e88088106d16-6542fd5d-a7-6cac
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1698889447
+VNflS_cXmhD]fJ=^7YBnne0
+04 19 4 work seq_detect_01001_tb fast 0
+=1-e88088106d16-6542fee7-9a-7600
+R1
+R2
+n@_opt1
+R3
+R0
+vseq_detect_01001
+Z4 !s110 1698889634
+!i10b 1
+!s100 C`IP9?_UDdQ[bSU`mK@I82
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IVz:FU8Mkk8e7zYV_h`F2O1
+Z6 dC:/Users/92336/Desktop/IC/fsm/sim
+w1698889623
+8C:/Users/92336/Desktop/IC/fsm/seq_detect_01001.v
+FC:/Users/92336/Desktop/IC/fsm/seq_detect_01001.v
+!i122 46
+L0 1 91
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z9 !s108 1698889634.000000
+!s107 C:/Users/92336/Desktop/IC/fsm/seq_detect_01001.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/92336/Desktop/IC/fsm/seq_detect_01001.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vseq_detect_01001_tb
+Z11 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R4
+!i10b 1
+!s100 J>F40U]=:4JH0GW226nQU2
+R5
+IIFzn2NW31K^][FFz7kEBP2
+S1
+R6
+w1698889320
+8C:/Users/92336/Desktop/IC/fsm/seq_detect_01001_tb.sv
+FC:/Users/92336/Desktop/IC/fsm/seq_detect_01001_tb.sv
+!i122 47
+Z12 L0 2 43
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/92336/Desktop/IC/fsm/seq_detect_01001_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/92336/Desktop/IC/fsm/seq_detect_01001_tb.sv|
+!i113 0
+Z13 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vsequential_detector_01001
+Z14 !s110 1698889116
+!i10b 1
+!s100 Q<aNdY;eoH;`QYGzTiLoM0
+R5
+I;F1Ha1I=VAEnhi0P[Y]`20
+R6
+w1698889039
+8C:/Users/92336/Desktop/IC/fsm/sequential_detector_01001.v
+FC:/Users/92336/Desktop/IC/fsm/sequential_detector_01001.v
+!i122 40
+L0 1 99
+R7
+R8
+r1
+!s85 0
+31
+Z15 !s108 1698889116.000000
+!s107 C:/Users/92336/Desktop/IC/fsm/sequential_detector_01001.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/92336/Desktop/IC/fsm/sequential_detector_01001.v|
+!i113 0
+R10
+R2
+vsequential_detector_01001_tb
+R11
+R14
+!i10b 1
+!s100 >BzzKQOXVVfK`cC6Zo?LI0
+R5
+IeO868Ln>WKjg>9Qk8Vc]80
+S1
+R6
+w1698885995
+8C:/Users/92336/Desktop/IC/fsm/sequential_detector_01001_tb.sv
+FC:/Users/92336/Desktop/IC/fsm/sequential_detector_01001_tb.sv
+!i122 41
+R12
+R7
+R8
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/92336/Desktop/IC/fsm/sequential_detector_01001_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/92336/Desktop/IC/fsm/sequential_detector_01001_tb.sv|
+!i113 0
+R13
+R2

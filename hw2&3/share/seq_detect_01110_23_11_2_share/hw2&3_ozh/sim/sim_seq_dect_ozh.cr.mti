@@ -1,0 +1,15 @@
+C:/Users/92336/Desktop/IC/course_digital_ic/homework/hw2&3/share/seq_detect_01110_23_11_2_share/hw2&3_ozh/seq_dect_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/92336/Desktop/IC/course_digital_ic/homework/hw2&3/share/seq_detect_01110_23_11_2_share/hw2&3_ozh/seq_dect_tb.sv
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module seq_dect_tb
+
+Top level modules:
+	seq_dect_tb
+
+} {} {}} C:/Users/92336/Desktop/IC/course_digital_ic/homework/hw2&3/share/seq_detect_01110_23_11_2_share/hw2&3_ozh/seq_dect.v {1 {vlog -work work -vopt -stats=none C:/Users/92336/Desktop/IC/course_digital_ic/homework/hw2&3/share/seq_detect_01110_23_11_2_share/hw2&3_ozh/seq_dect.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module seq_dect
+
+Top level modules:
+	seq_dect
+
+} {} {}}

@@ -1,0 +1,4 @@
+#./Testbench/tb_alu_top.v
+./Testbench/tb_nbit_alu_top.sv
+./Vsrc/alu_top.v
+./Vsrc/alu_unit.v
