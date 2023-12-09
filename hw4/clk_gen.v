@@ -1,4 +1,4 @@
-`timescale 1ns/1ns
+`timescale 1ns / 1ps
 module clk_gen #(
     parameter CLK_PERIOD_NS = 10 ,
     parameter START_TIME_NS = 5*1000

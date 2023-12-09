@@ -2,13 +2,16 @@ module csm #(
 ) (
     input       rst_n       ,
     input [1:0] RCC_CR_in   ,
-    input       clk_ext     ,//fclk:100MHz
-    output      clk_sys     
+    input       clk_ext_100M     ,//fclk:100MHz
+    output      clk_sys     ,
+    output      clk_ext_100M_ready
 );
 
 reg rst_sync_n ;
 reg [1:0] RCC_CR ;
-reg counter ;
+reg [14:0] counter_to_compute_clk_ext_100M_is_stable ;
+reg flag_initial_n ; 
+
 always @(posedge clk_sys or negedge rst_n) begin
     if(~rst_n)
         rst_sync_n <= 1'b0 ;
@@ -19,12 +22,23 @@ end
 always @(posedge clk_sys or negedge rst_n) begin
     if(~rst_n)
         RCC_CR <= 2'b00 ;
-    else if(clk_shift_when_initial)
-        RCC_CR <= 2'b10 ;
     else
         RCC_CR <= RCC_CR_in ;
 end
 
+always @(posedge clk_sys or negedge rst_n) begin
+    if(~rst_n)
+        counter_to_compute_clk_ext_100M_is_stable <= 15'b0 ;
+    else if(~flag_initial_n)
+        counter_to_compute_clk_ext_100M_is_stable <= counter_to_compute_clk_ext_100M_is_stable + 1'b1 ;
+end
+
+always @(posedge clk_sys or negedge rst_n) begin
+    if(~rst_n)
+        flag_initial_n <= 1'b0 ;
+    else if(counter_to_compute_clk_ext_100M_is_stable == 15'd29950)
+        flag_initial_n <= 1'b1 ;
+end
 
 clk_gen#(
     .CLK_PERIOD_NS ( 31250 ),
@@ -42,8 +56,8 @@ clk_ctrl#(
 )u_clk_ctrl(
     .rst_n    ( rst_n    ),
     .sel_clk  ( sel_clk  ),
-    .clk_in   ( clk_in   ),
-    .clk_out  ( clk_out  )
+    .clk_in   ( {clk_ext_100M,clk_local_32K,clk_local_10M}   ),
+    .clk_out  ( clk_sys  )
 );
 
 endmodule

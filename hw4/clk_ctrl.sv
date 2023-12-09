@@ -6,11 +6,12 @@ module clk_ctrl #(
     output reg  clk_out     
 );
     reg  [2:0]  clk_enable  ;
-    wire [2:0]  other_clks_is_disable  ;
+    reg  [2:0]  other_clks_is_disable  ;
     reg  [2:0]  sel_clk_in  ;
     reg  [2:0]  reg_clk_enable_in   ;
-    reg  [2:0]  clk_enable_d2
+    reg  [2:0]  clk_enable_d2 ;
 
+    // genvar i;
     generate
         always @(*) begin
             for(integer i = 0; i < 3; i = i + 1 ) begin
@@ -27,7 +28,7 @@ module clk_ctrl #(
         for (i = 0; i < 3; i = i + 1 ) begin
             always @(negedge clk_in[i] or negedge rst_n) begin
                 if(~rst_n)
-                    clk_enable[i] <= 1'b0 ;
+                    clk_enable[i] <= (i == 0) ;
                 else
                     clk_enable[i] <= reg_clk_enable_in[i] ;
             end

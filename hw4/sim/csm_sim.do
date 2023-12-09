@@ -2,11 +2,14 @@ vlib work
 
 vmap work work
 
-vlog  ../clk_ctrl.v
+vlog  ../clk_ctrl.sv
+vlog  ../clk_gen.v
+vlog  ../csm.v
+vlog  ../tb_csm.v
 
-#vsim -voptargs=+acc work.tb_top
+vsim -voptargs=+acc work.tb_csm
 
-#do top_wave.do
+#do csm_wave.do
 
 #run -all
 
