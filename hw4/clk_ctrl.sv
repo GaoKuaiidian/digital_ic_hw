@@ -9,7 +9,7 @@ module clk_ctrl #(
     reg  [2:0]  other_clks_is_disable  ;
     reg  [2:0]  sel_clk_in  ;
     reg  [2:0]  reg_clk_enable_in   ;
-    reg  [2:0]  clk_enable_d2 ;
+    reg  [2:0]  reg_clk_enable_in_delay[1:0];
 
     // genvar i;
     generate
@@ -17,12 +17,15 @@ module clk_ctrl #(
             for(integer i = 0; i < 3; i = i + 1 ) begin
                     sel_clk_in[i] = sel_clk == i ;
                     other_clks_is_disable[i] = ~clk_enable[(i+1)%3] & ~clk_enable[(i+2)%3] ;
-                    reg_clk_enable_in = sel_clk_in[i] & other_clks_is_disable[i] ;
-                    clk_out = ( clk_enable[i] && clk_in[i] ) | clk_out ;
+                    reg_clk_enable_in[i] = sel_clk_in[i] & other_clks_is_disable[i] ;
+                    // clk_out = ( clk_enable[i] && clk_in[i] ) + clk_out ;
             end
         end
     endgenerate
 
+    assign clk_out = ( clk_enable[0] && clk_in[0] ) 
+                    |( clk_enable[1] && clk_in[1] ) 
+                    |( clk_enable[2] && clk_in[2] );
     genvar i ;
     generate
         for (i = 0; i < 3; i = i + 1 ) begin
@@ -30,9 +33,20 @@ module clk_ctrl #(
                 if(~rst_n)
                     clk_enable[i] <= (i == 0) ;
                 else
-                    clk_enable[i] <= reg_clk_enable_in[i] ;
+                    clk_enable[i] <= reg_clk_enable_in_delay[1][i] ;
             end
-        end 
+        end
+        for (i = 0; i < 3; i = i + 1 ) begin
+            always @(posedge clk_in[i] or negedge rst_n) begin
+                if(~rst_n) begin
+                    reg_clk_enable_in_delay[0][i] <= (i == 0) ;
+                    reg_clk_enable_in_delay[1][i] <= (i == 0) ;
+                end else begin
+                    reg_clk_enable_in_delay[1][i] <= reg_clk_enable_in_delay[0][i] ;
+                    reg_clk_enable_in_delay[0][i] <= reg_clk_enable_in[i] ;
+                end
+            end
+        end
     endgenerate
 endmodule
 

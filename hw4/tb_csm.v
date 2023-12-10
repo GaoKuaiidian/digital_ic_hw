@@ -17,10 +17,10 @@ begin
     #5 rst_n  =  1;
     wait(clk_ext_100M_ready == 1);
     #100 RCC_CR_in = 2'b10;
+    #10000
     #100
     #60 RCC_CR_in = 2'b01;
-    #31260
-    $finish;
+    #312500 $finish;
 end
 
 clk_gen#(
@@ -31,12 +31,18 @@ clk_gen#(
 );
 
 csm  u_csm (
-    .rst_n                   ( rst_n                     ),
-    .RCC_CR_in               ( RCC_CR_in                 ),
+    .rst_n                   ( rst_sync_n            ),
+    .RCC_CR_in               ( RCC_CR_in             ),
     .clk_ext_100M            ( clk_100M              ),
 
     .clk_sys                 ( clk_sys                   ),
     .clk_ext_100M_ready      ( clk_ext_100M_ready        )
+);
+
+rst_sync u_rst_sync(
+    .clk    ( clk_sys    ),
+    .rst_n  ( rst_n  ),
+    .rst_sync_n  ( rst_sync_n  )
 );
 
 endmodule

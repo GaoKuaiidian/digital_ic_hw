@@ -10,38 +10,38 @@ z2
 cModel Technology
 dC:/modeltech64_2020.4/examples
 T_opt
-!s110 1702099054
-V1J^N@eO<5YXk]n_=XIM5Y0
+!s110 1702187867
+VoJNcD58QEkD@9oSFLYQVM0
 04 6 4 work tb_csm fast 0
-=2-e88088106d16-6573f86d-318-6540
+=1-e88088106d16-6575535b-16a-3aac
 o-quiet -auto_acc_if_foreign -work work +acc
 Z0 tCvgOpt 0
 n@_opt
 OL;O;2020.4;71
 vclk_ctrl
 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z1 !s110 1702099053
+Z1 !s110 1702187864
 !i10b 1
-!s100 Ql3oBH^NRI`;9k5]<:e;m0
+!s100 BSmIlT1JWJBU2gMebFSG<0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-Iek^Uh9DTzb:na]K2X0E>Y1
+I5mTQzefALj6c9QEFZ2Vm<2
 S1
 Z3 dC:/Users/92336/Desktop/IC/course_digital_ic/homework/digital_ic_hw/hw4/sim
-w1702098746
+w1702187056
 8../clk_ctrl.sv
 F../clk_ctrl.sv
-!i122 15
-L0 1 37
+!i122 107
+L0 1 51
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 Z5 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z6 !s108 1702099053.000000
+!s108 1702187863.000000
 !s107 ../clk_ctrl.sv|
 !s90 -reportprogress|300|../clk_ctrl.sv|
 !i113 0
-Z7 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R0
 vclk_gen
 R1
@@ -53,62 +53,85 @@ R3
 w1702095820
 8../clk_gen.v
 F../clk_gen.v
-!i122 16
+!i122 108
 L0 2 14
 R4
 R5
 r1
 !s85 0
 31
-R6
+Z7 !s108 1702187864.000000
 !s107 ../clk_gen.v|
 !s90 -reportprogress|300|../clk_gen.v|
 !i113 0
-R7
+R6
 R0
 vcsm
 R1
 !i10b 1
-!s100 jVTAEUSNEAlTZlL;mcFmd3
+!s100 CkaITa>7MQ9_P?_CXHDza1
 R2
-I[0OJYf`:6lWUCgkdf;;=Q2
+I00N5LdEQS:9n3MSnczT]11
 R3
-w1702095697
+w1702099921
 8../csm.v
 F../csm.v
-!i122 17
-L0 1 63
+!i122 109
+L0 1 65
 R4
 R5
 r1
 !s85 0
 31
-R6
+R7
 !s107 ../csm.v|
 !s90 -reportprogress|300|../csm.v|
 !i113 0
+R6
+R0
+vrst_sync
+R1
+!i10b 1
+!s100 Ue:kILmFCI5`MD6^:h_a=3
+R2
+IM8V4Q@GR>f`@X00lDd8m>1
+R3
+w1702178957
+8../rst_sync.v
+F../rst_sync.v
+!i122 110
+L0 1 12
+R4
+R5
+r1
+!s85 0
+31
 R7
+!s107 ../rst_sync.v|
+!s90 -reportprogress|300|../rst_sync.v|
+!i113 0
+R6
 R0
 vtb_csm
 R1
 !i10b 1
-!s100 VC5KTAb>@Db<TOfGY?Ikd0
+!s100 zn0JTX3X3]`l7`f`hTzXk0
 R2
-I[T`7LCfIf_0W98k6iNj7I1
+IADYVj^J^z`>1dX3zhUH0R2
 R3
-w1702099048
+w1702187856
 8../tb_csm.v
 F../tb_csm.v
-!i122 18
-L0 2 41
+!i122 111
+L0 2 47
 R4
 R5
 r1
 !s85 0
 31
-R6
+R7
 !s107 ../tb_csm.v|
 !s90 -reportprogress|300|../tb_csm.v|
 !i113 0
-R7
+R6
 R0

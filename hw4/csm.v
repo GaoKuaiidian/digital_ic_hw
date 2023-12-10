@@ -33,6 +33,8 @@ always @(posedge clk_sys or negedge rst_n) begin
         counter_to_compute_clk_ext_100M_is_stable <= counter_to_compute_clk_ext_100M_is_stable + 1'b1 ;
 end
 
+assign clk_ext_100M_ready = counter_to_compute_clk_ext_100M_is_stable == 15'd29950;
+
 always @(posedge clk_sys or negedge rst_n) begin
     if(~rst_n)
         flag_initial_n <= 1'b0 ;
@@ -55,7 +57,7 @@ clk_gen#(
 clk_ctrl#(
 )u_clk_ctrl(
     .rst_n    ( rst_n    ),
-    .sel_clk  ( sel_clk  ),
+    .sel_clk  ( RCC_CR   ),
     .clk_in   ( {clk_ext_100M,clk_local_32K,clk_local_10M}   ),
     .clk_out  ( clk_sys  )
 );
